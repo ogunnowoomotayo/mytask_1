@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topContainer{
+    height: 30px;
+    border: 1px solid #54a0b9;
+    background-color: #0099ff;
+    margin: 10px;
+}
+.mystore{
+    margin: 10px;
+}
+.books{
+    margin: 10px;
+    font-size: 12px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px; 
+    width: 60%;  
+}
+.yellow{
+    height: 150px;
+    width: 100px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+.blue{
+    height: 150px;
+    width: 100px;
+    border: 1px solid blue;
+    background-color: blue;
+}
+.greem{
+    height: 150px;
+    width: 100px;
+    border: 1px solid green;
+    background-color: green;
+}
+.Shoes{
+    font-size: 12px;
+    margin: 10px;
+}
+.container_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    width: 60%;
+}
+.gray{
+    height: 150px;
+    width: 100px;
+    border: 1px solid gray;
+    background-color: gray;
+}
+.pink{
+    height: 150px;
+    width: 100px;
+    border: 1px solid pink;
+    background-color: pink;
+}
+.brown{
+    height: 150px;
+    width: 100px;
+    border: 1px solid brown;
+    background-color: brown; 
+}
+
+@media only screen and (max-width: 400px){
+    .container{ 
+        width: 90%;
+    }
+    .container_2{
+        width: 90%;
+    }
+}
